@@ -51,11 +51,11 @@ namespace Jumbled
             return dictionary;
         }
 
-        public static String GenerateWordKey(String inputString)
+        public static string GenerateWordKey(string inputString)
         {
             char[] chars = inputString.ToCharArray();
             Array.Sort(chars);
-            return new String(chars);
+            return new string(chars);
         }
     }
 }
